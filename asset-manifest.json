@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/project/static/css/main.05cdde3d.css",
-    "main.js": "/project/static/js/main.44cfae25.js",
-    "static/js/453.ed3810f9.chunk.js": "/project/static/js/453.ed3810f9.chunk.js",
-    "static/media/callCenter.png": "/project/static/media/callCenter.2bd01721687a4413e4e0.png",
-    "static/media/inside.jpg": "/project/static/media/inside.0201baa8a8b36043ac46.jpg",
-    "static/media/pilet.png": "/project/static/media/pilet.221823c36ce9acc6e7b0.png",
-    "static/media/carParking.png": "/project/static/media/carParking.871db9e9fcbe47d207a8.png",
-    "static/media/mapImage.PNG": "/project/static/media/mapImage.e6d16d31bf3990aa7175.PNG",
-    "index.html": "/project/index.html",
-    "main.05cdde3d.css.map": "/project/static/css/main.05cdde3d.css.map",
-    "main.44cfae25.js.map": "/project/static/js/main.44cfae25.js.map",
-    "453.ed3810f9.chunk.js.map": "/project/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/project/movieproject/public/index.html/static/css/main.c18c0496.css",
+    "main.js": "/project/movieproject/public/index.html/static/js/main.7024dfc1.js",
+    "static/js/453.ed3810f9.chunk.js": "/project/movieproject/public/index.html/static/js/453.ed3810f9.chunk.js",
+    "static/media/callCenter.png": "/project/movieproject/public/index.html/static/media/callCenter.2bd01721687a4413e4e0.png",
+    "static/media/inside.jpg": "/project/movieproject/public/index.html/static/media/inside.0201baa8a8b36043ac46.jpg",
+    "static/media/pilet.png": "/project/movieproject/public/index.html/static/media/pilet.221823c36ce9acc6e7b0.png",
+    "static/media/carParking.png": "/project/movieproject/public/index.html/static/media/carParking.871db9e9fcbe47d207a8.png",
+    "static/media/mapImage.PNG": "/project/movieproject/public/index.html/static/media/mapImage.e6d16d31bf3990aa7175.PNG",
+    "index.html": "/project/movieproject/public/index.html/index.html",
+    "main.c18c0496.css.map": "/project/movieproject/public/index.html/static/css/main.c18c0496.css.map",
+    "main.7024dfc1.js.map": "/project/movieproject/public/index.html/static/js/main.7024dfc1.js.map",
+    "453.ed3810f9.chunk.js.map": "/project/movieproject/public/index.html/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05cdde3d.css",
-    "static/js/main.44cfae25.js"
+    "static/css/main.c18c0496.css",
+    "static/js/main.7024dfc1.js"
   ]
 }
