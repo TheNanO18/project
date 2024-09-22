@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.cc6c2af0.css",
-    "main.js": "/static/js/main.e8ab5de3.js",
-    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
-    "static/media/callCenter.png": "/static/media/callCenter.2bd01721687a4413e4e0.png",
-    "static/media/inside.jpg": "/static/media/inside.0201baa8a8b36043ac46.jpg",
-    "static/media/pilet.png": "/static/media/pilet.221823c36ce9acc6e7b0.png",
-    "static/media/carParking.png": "/static/media/carParking.871db9e9fcbe47d207a8.png",
-    "static/media/mapImage.PNG": "/static/media/mapImage.e6d16d31bf3990aa7175.PNG",
-    "index.html": "/index.html",
-    "main.cc6c2af0.css.map": "/static/css/main.cc6c2af0.css.map",
-    "main.e8ab5de3.js.map": "/static/js/main.e8ab5de3.js.map",
-    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/project/static/css/main.05cdde3d.css",
+    "main.js": "/project/static/js/main.44cfae25.js",
+    "static/js/453.ed3810f9.chunk.js": "/project/static/js/453.ed3810f9.chunk.js",
+    "static/media/callCenter.png": "/project/static/media/callCenter.2bd01721687a4413e4e0.png",
+    "static/media/inside.jpg": "/project/static/media/inside.0201baa8a8b36043ac46.jpg",
+    "static/media/pilet.png": "/project/static/media/pilet.221823c36ce9acc6e7b0.png",
+    "static/media/carParking.png": "/project/static/media/carParking.871db9e9fcbe47d207a8.png",
+    "static/media/mapImage.PNG": "/project/static/media/mapImage.e6d16d31bf3990aa7175.PNG",
+    "index.html": "/project/index.html",
+    "main.05cdde3d.css.map": "/project/static/css/main.05cdde3d.css.map",
+    "main.44cfae25.js.map": "/project/static/js/main.44cfae25.js.map",
+    "453.ed3810f9.chunk.js.map": "/project/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc6c2af0.css",
-    "static/js/main.e8ab5de3.js"
+    "static/css/main.05cdde3d.css",
+    "static/js/main.44cfae25.js"
   ]
 }
