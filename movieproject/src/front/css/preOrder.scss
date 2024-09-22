@@ -1,0 +1,169 @@
+*{margin:0; padding:0;}
+.movieDate{
+    width:100%;
+    height:100vh;
+    header{
+        ul{
+            .preOrder{
+                width:100px;
+                height:30px;
+                text-align:center;
+                line-height:30px;
+                background-color:rgb(142, 142, 255);
+                border-radius:20px;
+            }
+        }
+    }
+    h1{
+        width:100%;
+        height:100px;
+        text-align:center;
+        line-height:98px;
+     }
+    .date-movie-container{
+        display: flex;
+        overflow-x: hidden;
+        white-space: nowrap;
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction:column;
+        .date{
+            width: 140px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            border: 1px solid #333;
+            border-radius: 20px;
+            margin: 8px;
+        }
+        div{
+            width:100%;
+            height:50px;
+            border-top:1px solid #333;
+            border-bottom:1px solid #333;
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            button{
+                width:30px;
+                height:30px;
+                background:white;
+                border-radius:50%;;
+                border:none;
+            }
+        }
+        nav{
+            height:100%;
+            h2{
+                width: 100%;
+                height: 75px;
+                line-height: 75px;
+                text-align: center;
+            }
+            ul{
+                display: flex;
+                height: 100%;
+                justify-content: space-around;
+                li{
+                    width: 400px;
+                    height: 400px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    div{
+                        border:none;
+                    }
+                    .escape{
+                        width:250px;
+                        height:80%;
+                        background-size:100% 100%;
+                        background-image: url('../img/escape.jpg');
+                    }
+                    .pilet{
+                        width:250px;
+                        height:80%;
+                        background-size:100% 100%;
+                        background-image: url('../img/pilet.png');
+                    }
+                    .inside{
+                        width:250px;
+                        height:80%;
+                        background-size:100% 100%;
+                        background-image: url('../img/inside.jpg');
+                    }
+                    p{
+                        position: relative;
+                        top: 3%;
+                        font-size: 20px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:1000px){
+    .movieDate{
+        .date-movie-container{
+            div{
+                height:40px;
+            }
+            nav{
+                ul{
+                    li{
+                        width: 230px;
+                        height: 350px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .escape,.inside,.pilet{
+                            width:215px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:800px){
+    .movieDate{
+        header{
+            ul{
+                .preOrder{
+                    width:70px;
+                    height:25px;
+                    line-height:24px;
+                }
+            }
+        }
+        .date-movie-container{
+            div{
+                height:30px;
+            }
+            nav{
+                ul{
+                    li{
+                        width: 230px;
+                        height: 350px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .escape,.inside,.pilet{
+                            width:215px;
+                        }
+                        p{font-size:18px;}
+                    }
+                }
+            }
+            div{
+                button{
+                    width:20px;
+                    height:20px;
+                    background:white;
+                    border-radius:50%;;
+                    border:none;
+                }
+            }
+        }
+    }
+}
