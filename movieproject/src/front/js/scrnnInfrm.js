@@ -92,7 +92,7 @@ export default class ScrnnInfrm extends Component {
                             <div className={screen.info.imgclass} />
                             <div className="textBox">
                                 <div className={screen.info.boxclass}>
-                                    <h1>{screen.info.movietitle}</h1>
+                                    <h1>{screen.info.movietitle} &nbsp; / &nbsp;가격:20000원</h1>
                                     <p>{screen.info.movietext}</p>
                                 </div>
                                 <div className="screenBtn">
