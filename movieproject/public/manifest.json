@@ -1,5 +1,6 @@
 {
-  "name": "Create React App Sample",
+  "short_name": "React App",
+  "name": "자동차 극장",
   "icons": [
     {
       "src": "favicon.ico",
