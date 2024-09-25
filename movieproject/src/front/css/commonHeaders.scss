@@ -1,3 +1,7 @@
+@mixin importantify($name,$value){
+    #{$name}: #{$value} !important;
+}
+
 header{
     width:100%;
     height:15%;
@@ -69,23 +73,23 @@ header{
 }
 @media screen and (max-width:450px){
     header{
-        height:10%;
+        @include importantify(height, 10% ); 
         .logo{
-            height:70%;
+            @include importantify(height, 70% );
             .logoImage{
-                width:200px;
-                height:50px;
-                margin-bottom:0;
+                @include importantify(width, 200px);
+                @include importantify(height, 50px);
+                @include importantify(margin-bottom, 0px);
             }
         }
         ul{
             li{
-                height:40px;
-                line-height:36px;
+                @include importantify(height, 40px);
+                @include importantify(line-height, 36px);
                 a{
-                    text-decoration:none;
-                    color:black;
-                    font-size:10px;
+                    @include importantify(text-decoration, none);
+                    @include importantify(color, black);
+                    @include importantify(font-size, 10px);
                 }
             }
         }
