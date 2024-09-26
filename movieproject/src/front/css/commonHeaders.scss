@@ -84,12 +84,12 @@ header{
         }
         ul{
             li{
-                @include importantify(height, 40px);
-                @include importantify(line-height, 36px);
+                height:40px;
+                line-height:34px;
                 a{
                     @include importantify(text-decoration, none);
                     @include importantify(color, black);
-                    @include importantify(font-size, 10px);
+                    @include importantify(font-size, 8px);
                 }
             }
         }
